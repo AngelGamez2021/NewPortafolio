@@ -1,0 +1,20 @@
+<div class="modal" *ngIf="isVisible">
+  <div class="modal-container">
+    <div>
+      <h2>{{ title }}</h2>
+      <p>{{ content }}</p>
+      <p>Tecnologías:</p>
+      <div class="tecnologias">
+        <img class="tech" src="../../../../assets/hmtl5.png" />
+        <img class="tech" src="../../../../assets/css.png" />
+        <img class="tech" src="../../../../assets/js.png" />
+        <img class="tech" src="../../../../assets/angular.png" />
+      </div>
+      <button (click)="closeModal()">X</button>
+    </div>
+    <div class="imagen">
+      <img class="pantalla" src="../../../../assets/foto1.jpg" alt="" />
+      <a href="https://www.google.com" target="_blank">www.calculadorApp.com</a>
+    </div>
+  </div>
+</div>

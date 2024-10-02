@@ -1,0 +1,58 @@
+<div class="container-portafolio">
+  <h1 id="titulo">Portafolio</h1>
+
+  <h1 id="linea">_______________</h1>
+
+  <div class="container">
+    <div class="web">
+      <h3>Desarrollo web</h3>
+      <div class="cards">
+        <div
+          class="card"
+          (click)="
+            openModal(
+              'CalculadorApp',
+              'Aplicación web de una calculadora, poniendo en practica, temas de arreglos y objetos, aplicado sus características'
+            )
+          "
+        >
+          <h5>CalculadorApp</h5>
+        </div>
+        <div
+          class="card"
+          (click)="
+            openModal(
+              'CalculadorApp',
+              'Aplicación web de una calculadora, poniendo en practica, temas de arreglos y objetos, aplicado sus características'
+            )
+          "
+        >
+          <h5>Mi guía JS</h5>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div class="ui">
+      <h3>Diseños UI</h3>
+      <div class="cards">
+        <div
+          class="card"
+          (click)="
+            openModal(
+              'MegApp',
+              'Mockups de aplicación movil para tenderos, poniendo en practica, temas de diseño UI, realizando un modelo amigable para sus usuarios'
+            )
+          "
+        >
+          <h5>MegApp</h5>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-modal-info></app-modal-info>
